@@ -1,0 +1,66 @@
+.resumeButton{
+    text-decoration: none;
+    width: 90%;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F2F3F4;
+    margin-top: 40px;
+    transition: all 0.2s ease-in-out !important;
+    background: hsla(271, 100%, 50%, 1);
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    box-shadow:  20px 20px 60px #1F2634,
+    -20px -20px 60px #1F2634;
+    
+}
+
+.resumeButton:hover {
+transform: scale(1.05);
+transition: all 0.4s ease-in-out;
+box-shadow:  20px 20px 60px #1F2634,
+}    
+
+.heroImage{
+    /* width: 100%; */
+    display: flex;
+    order: 2;
+    justify-content: end;
+    gap: 12px;
+    
+}
+
+.heroImage img{
+/* position: relative; */
+  width: 100%;
+  height: 100%;
+  max-width: 290px;
+  max-height: 300px;
+  border-radius: 50%;
+  border: 3px solid #560bad;
+  background-color:#854CE6 ;
+}
+@media (max-width:639px) {
+  .intro-box{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+  }
+  .heroImage {
+    width: 100%;
+    height: 100%;
+  
+   margin: 10px auto;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+  border: 3px solid #560bad;
+  background-color:#854CE6 ;
+  }
+}
